@@ -1,0 +1,37 @@
+/* CSS Document */
+main {
+  padding: 30px;
+}
+
+blockquote {
+  max-width: 300px;
+}
+
+blockquote + .author {
+  margin-bottom: 60px;
+}
+
+.author {
+  color: grey;
+}
+
+blockquote::before {
+	content:'"';
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	margin-right: 5px;	
+}
+blockquote::after {
+	content:'"';
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	margin-right: 5px;	
+}
+
+
+
+
+.author::before {
+	content:'- ';
+}
+

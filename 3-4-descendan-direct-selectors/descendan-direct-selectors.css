@@ -1,0 +1,14 @@
+/* CSS Document */
+
+main {
+  padding: 30px;
+}
+.foo > li {
+	border: solid 1px red;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: red;
+}
+
+.bar > li {
+	border: solid 1px green;
+}

@@ -42,7 +42,7 @@ main * {
 .green {
   background-color: green;
 }
-.box.foo .circle.bar {
+.box.foo, .circle.bar {
 	border: solid#000000
 }
 
