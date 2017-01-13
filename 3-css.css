@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.blueBox {
+	border: black solid;
+	background-color: blue;
+	margin-bottom: 50px;
+	width: 60px;
+	height: 60px;
+}
+
+.redBox {
+	width: 200px;
+	background-color: red;
+	height: 250px;
+	border: black solid;
+	border-width: 1px;	
+}

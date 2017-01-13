@@ -1,0 +1,45 @@
+/* CSS Document */
+* {
+  color: white;
+  font-family: 'Lato';
+}
+
+.main {
+  padding: 60px;
+  height: 300px;
+  background-image: url('https://tf-assets-prod.s3.amazonaws.com/tf-curric/FEWD-001/light-background.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+}
+.heroText span {
+	background-color: gray;
+	display: inline;
+	padding: .4rem;
+	
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+}
+
+.heroText2 span {
+	background-color: gray;
+	display: inline;
+	padding: .4rem;
+	
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+}
+
+.opacity-layer {
+  padding: 60px;
+}
+.inner {
+  background-color: black;
+  height: 100%
+    
+}
+
+hr {
+  width: 150px;
+  margin-left: 0;
+  color:  white;
+}
